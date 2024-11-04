@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Изменяем кириллицу на латиницу по клику</title>
+</head>
+
+<body>
+
+
+    <h3 align="center">
+        <font color="darkred" , face="Arial" , size=5>РОССИЙСКАЯ ФЕДЕРАЦИЯ</font>
+    </h3>
+    <h3 align="center">
+        <font color="black" , face="Arial" , size=3>Удостоверение личности гражданина</font>
+    </h3>
+
+    <h4>Паспорт выдан ГУ МВД России по Пермскому Краю</h4>
+    <h3 align="left">
+        <font color="darkred" , face="Arial" , size=2>Дата выдачи</font>
+    </h3>
+    <h3>27.06.2019</h3>
+    <h3>
+        <font color="darkred" , face="Arial" , size=2>Код подразделения</font>
+    </h3>
+    <h3>680-004</h3>
+    <img src="https://avatars.mds.yandex.net/i?id=c3ae5d85d7348722a9052c7827ef835d_l-5280919-images-thumbs&n=13"
+        alt="Печать МВД" width="400px" height="300px">
+    <p>
+    <h3 align="center">
+        <font color="darkred" , face="Arial" , size=2>Личная подпись</font>
+    </h3>
+    <img src="http://avatars.mds.yandex.net/i?id=520d1aeaef20ab70f791ec9114782a52de908eb0_l-10702810-images-thumbs&n=13"
+        alt="Печать МВД" width="200px" height="100px">
+    <h3 align="center">
+        <font color="darkred" , face="Arial" , size=6>58 18 956186</font>
+    </h3>
+    <hr color="darkred" size="5" width=100% align="center">
+    <p>
+        <img src="https://sun3-17.userapi.com/impg/nQrVAfVgErzYBq1Yqx5AGp2TPaTybCzcN1lsCw/ZOLeTeDsblk.jpg?size=1855x2160&quality=95&sign=44184f4a8692eb20c0f49e20ed745983&type=album"
+            align="left" width="400px" height="400px">
+    <h3 align="center">
+        <font color="darkred" , face="Arial" , size=2>Фамилия</font>
+    </h3>
+    <div align="center" id="surname">Мершон</div>
+    <h3 align="center">
+        <font color="darkred" , face="Arial" , size=2>Имя</font>
+    </h3>
+    <div id="name" align="center">Софья</div>
+    <h3 align="center">
+        <font color="darkred" , face="Arial" , size=2>Отчество</font>
+    </h3>
+    <div align="center" id="papa">Ростиславовна</div>
+    <h3 align="center">
+        <font color="darkred" , face="Arial" , size=2>Пол</font>
+    </h3>
+    <h3 align="center">Жен</h3>
+    <h3 align="center">
+        <font color="darkred" , face="Arial" , size=2>Дата рождения</font>
+    </h3>
+    <h3 align="center">07.05.2005</h3>
+    <h3 align="center">
+        <font color="darkred" , face="Arial" , size=2>Место рождения</font>
+    </h3>
+    <h3 align="center">РОССИЯ</h3>
+    <h3 align="center">Г. ПЕРМЬ</h3>
+    <p>
+    <h3 align="center">
+        <font color="darkred" , face="Arial" , size=6>58 18 956186</font>
+    </h3>
+
+    <a href="../typography/index.html" target="_self">Вернуться на главную</a>
+
+</body>
+<script>
+    const nameElement = document.getElementById("name");
+    nameElement.addEventListener("click", function () {
+        nameElement.textContent = "Sophia";
+    });
+</script>
+
+<script>
+    const nameElement1 = document.getElementById("surname");
+    nameElement1.addEventListener("click", function () {
+        nameElement1.textContent = "Mershon";
+    });
+</script>
+
+<script>
+    const nameElement2 = document.getElementById("papa");
+    nameElement2.addEventListener("click", function () {
+        nameElement2.textContent = "Rostislavovna";
+    });
+</script>
+<script src="../passport/Changes.html"></script>
+
+</html>
